@@ -6,3 +6,4 @@ Esse repositório foi criado na intenção de registrar todas as atividades real
 |Nome da Atividade| Descrição do projeto |Tecnologias utilizadas|Deploy|
 |--|--|--|--|
 |Mini Wiki - Mulheres na Tecnologia|Criar uma página dedicada a uma mulher importante na área da tecnologia|HTML|[Link](https://mulheres-na-tecnologia-a1.netlify.app/)|
+|Mini Bio|Criar uma mini wiki sobre você usando HTML e estilizando com SASS. 🎨|HTML, SASS|[Link](https://mini-bio-one.vercel.app/)|
