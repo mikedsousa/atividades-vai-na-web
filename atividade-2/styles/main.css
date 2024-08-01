@@ -64,6 +64,7 @@ body {
 }
 .favoritos summary {
   color: #5E7078;
+  cursor: pointer;
 }
 .favoritos ul, .favoritos ol {
   list-style-type: none;
