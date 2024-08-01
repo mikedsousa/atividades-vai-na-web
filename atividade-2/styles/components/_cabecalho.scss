@@ -1,0 +1,30 @@
+@use '../abstract/variables';
+
+.header {
+    &__nome {
+        color: variables.$cor-de-titulo;
+
+        &::before {
+            content: url(../../images/glowing_stars.png);
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+
+    &__descricao {
+        display: flex;
+        flex-direction: column;
+
+        &-titulo {
+            color: variables.$cor-de-fonte;
+
+            & span {
+                color: variables.$cor-de-destaque;
+                font-weight: 700;
+            }
+        }
+    }
+
+    
+
+}

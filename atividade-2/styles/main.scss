@@ -1,0 +1,12 @@
+@use './abstract/root';
+
+// Layout
+@use './layout/header';
+@use './layout/main';
+
+// Components
+@use './components/cabecalho';
+@use './components/descricao';
+@use './components/avatar';
+@use './components/favoritos';
+@use './components/rodape';

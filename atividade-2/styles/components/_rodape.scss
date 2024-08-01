@@ -1,0 +1,13 @@
+@use '../abstract/variables';
+
+.rodape {
+    &__texto {
+        color: variables.$cor-de-fonte;
+    }
+
+    &__links {
+        text-decoration: none;
+        color: variables.$cor-de-destaque;
+        font-weight: 700;
+    }
+}

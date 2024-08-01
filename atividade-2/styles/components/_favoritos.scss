@@ -1,0 +1,46 @@
+@use '../abstract/variables';
+
+.favoritos {
+
+    &__container {
+        margin-bottom: 1.5rem;
+    }
+
+    &__titulo {
+        color: variables.$cor-de-titulo;
+        margin-bottom: 1rem;
+    }
+
+    & summary {
+        color: variables.$cor-de-fonte;
+    }
+
+    ul, ol {
+        list-style-type: none;
+    }
+
+    & iframe {
+        width: 100%;
+        margin-block: 15px;
+    }
+    
+    &__filmes iframe {
+        height: 375px;
+        max-width: 575px;
+    }
+    
+    &__musicas iframe {
+        max-width: 375px;
+        
+        height: 100px;
+    }
+
+    summary{
+        list-style-type: '🌚';
+        transition: ease-in;
+    }
+    
+    details[open] summary{
+        list-style-type: '🌞';
+    }
+}

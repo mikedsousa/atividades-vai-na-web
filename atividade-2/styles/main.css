@@ -1,0 +1,98 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  max-width: 786px;
+  padding: 1rem;
+  background-color: #EAF2FD;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.descricao {
+  margin-bottom: 1.5rem;
+}
+
+.header__nome {
+  color: #464646;
+}
+.header__nome::before {
+  content: url(../../images/glowing_stars.png);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.header__descricao {
+  display: flex;
+  flex-direction: column;
+}
+.header__descricao-titulo {
+  color: #5E7078;
+}
+.header__descricao-titulo span {
+  color: #A0F601;
+  font-weight: 700;
+}
+
+.descricao__titulo {
+  color: #464646;
+  margin-bottom: 1rem;
+}
+.descricao__texto {
+  color: #5E7078;
+}
+
+.header__avatar {
+  width: 40%;
+  max-width: 200px;
+  margin-block: 4rem;
+}
+
+.favoritos__container {
+  margin-bottom: 1.5rem;
+}
+.favoritos__titulo {
+  color: #464646;
+  margin-bottom: 1rem;
+}
+.favoritos summary {
+  color: #5E7078;
+}
+.favoritos ul, .favoritos ol {
+  list-style-type: none;
+}
+.favoritos iframe {
+  width: 100%;
+  margin-block: 15px;
+}
+.favoritos__filmes iframe {
+  height: 375px;
+  max-width: 575px;
+}
+.favoritos__musicas iframe {
+  max-width: 375px;
+  height: 100px;
+}
+.favoritos summary {
+  list-style-type: "🌚";
+  transition: ease-in;
+}
+.favoritos details[open] summary {
+  list-style-type: "🌞";
+}
+
+.rodape__texto {
+  color: #5E7078;
+}
+.rodape__links {
+  text-decoration: none;
+  color: #A0F601;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */

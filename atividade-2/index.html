@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio Mini-bio, atividade realizada para o curso de programação Frontend Vai na Web 2024">
+    <title>Mini-Bio</title>
+
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__nome">Hello there!</h2>
+        <section class="header__descricao">
+            <img class="header__avatar" src="./images/avatar.png" alt="avatar">
+            <div class="header__container">
+                <h1 class="header__descricao-titulo">
+                    Meu nome é Mike d'Sousa, sou um estudante de <span>Frontend</span>.
+                </h1>
+            </div>
+        </section>
+    </header>
+    <main class="descricao">
+        <h2 class="descricao__titulo">
+            Sobre mim
+        </h2>
+        <p class="descricao__texto">
+            Com foco principalmente em Frontend, e aparentemente um pé em Data Science, tenho passado os ultimos meses estudando a melhor maneira de trocar a cor de um botão e a como irritar a galera do Back por não saberem centralizar uma div.
+        </p>
+        <p class="descricao__texto">
+            Estou a três anos imerso no mundo de rolagem de dados que o RPG nos proporciona.
+        </p>
+    </main>
+    <section class="favoritos">
+        <div class="favoritos__container">
+            <h3 class="favoritos__titulo">Filmes Favoritos</h3>
+            <ol class="favoritos__filmes">
+                <li>
+                    <details open>
+                        <summary>V de Vingança</summary>
+                        <iframe width="100%" height="415" src="https://www.youtube.com/embed/E8XzibXYMWk?si=C5uPuTEbd8WvX73f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Dungeons & Dragons - Honra Entre Rebeldes</summary>
+                        <iframe width="100%" height="415" src="https://www.youtube.com/embed/4ej5yjOqBMI?si=N6fZW4QW8-EB21Ly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Laranja Mecânica</summary>
+                        <iframe width="100%" height="415" src="https://www.youtube.com/embed/gTP_qxPLhBE?si=Se_OQRDtvoykQpeR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Beleza Oculta</summary>
+                        <iframe width="100%" height="415" src="https://www.youtube.com/embed/R4T_IJa9uC4?si=sxXiR0ASMVYGg5hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </details>
+                </li>
+            </ol>
+        </div>
+        <div class="favoritos__container">
+            <h3 class="favoritos__titulo">Músicas Favoritas</h3>
+            <ul class="favoritos__musicas">
+                <li>
+                    <details open>
+                        <summary>Maybe Tomorrow - Rafael Witt</summary>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WDidix1cVlKabcmbvyVLt?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Crazy Train - Ozzy Osbourne</summary>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7ACxUo21jtTHzy7ZEV56vU?utm_source=generator&theme=0"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>I Wanna Be Yours - Arctic Monkeys</summary>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5XeFesFbtLpXzIVDNQP22n?utm_source=generator&theme=0"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Clint Eastwood - Gorillaz</summary>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1RKUoGiLEbcXN4GY4spQDx?utm_source=generator&theme=0"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </details>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape__texto">Desafio da Atividade 2 | Desenvolvido por <a class="rodape__links" href="https://github.com/mikedsousa">Mike d'Sousa</a> para a <a class="rodape__links" href="https://vainaweb.com.br/">Vai na Web</a> | 2024</p>
+    </footer>
+</body>
+</html>

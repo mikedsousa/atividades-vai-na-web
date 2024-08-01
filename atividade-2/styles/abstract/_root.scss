@@ -1,0 +1,15 @@
+@use './variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: variables.$fonte-principal;
+}
+
+body {
+    max-width: 786px;
+    padding: 1rem;
+    background-color: variables.$cor-de-fundo;
+    margin: 0 auto;
+}
