@@ -48,6 +48,10 @@ body {
 .descricao__texto {
   color: #5E7078;
 }
+.descricao__link {
+  color: #5E7078;
+  text-decoration: underline;
+}
 
 .header__avatar {
   width: 40%;

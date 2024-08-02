@@ -9,4 +9,9 @@
     &__texto {
         color: variables.$cor-de-fonte;
     }
+
+    &__link {
+        color: variables.$cor-de-fonte;
+        text-decoration: underline;
+    }
 }
