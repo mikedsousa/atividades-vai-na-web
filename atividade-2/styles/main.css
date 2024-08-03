@@ -48,6 +48,9 @@ body {
 .descricao__texto {
   color: #5E7078;
 }
+.descricao__texto:last-child {
+  margin-top: 10px;
+}
 .descricao__link {
   color: #5E7078;
   text-decoration: underline;

@@ -8,10 +8,15 @@
 
     &__texto {
         color: variables.$cor-de-fonte;
+
+        &:last-child {
+            margin-top: 10px;
+        }
     }
 
     &__link {
         color: variables.$cor-de-fonte;
         text-decoration: underline;
     }
+
 }
