@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #111;
+  padding: 20px 70px;
+}
+header img {
+  width: 282px;
+}
+header button {
+  height: 62px;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+header button:first-child {
+  background-color: #df0712;
+  border: none;
+  width: 310px;
+}
+
+main {
+  margin-bottom: 3rem;
+}
+main .titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 120px 150px 50px;
+}
+main .titulo h1, main .titulo p {
+  font-weight: 600;
+  font-size: 64px;
+}
+main .cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px 150px;
+}
+main .cards div {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .cards div:last-child p {
+  margin-top: 1rem;
+}
+main .cards h3, main .cards p {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+}
+main .cards p {
+  font-size: 24px;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 92px;
+}
+footer a {
+  text-decoration: none;
+  margin-right: 93px;
+  color: #fff;
+  font-size: 36px;
+}/*# sourceMappingURL=style.css.map */
