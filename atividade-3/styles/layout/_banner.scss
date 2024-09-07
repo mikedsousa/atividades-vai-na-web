@@ -1,13 +1,13 @@
 .banner {
-  display: none;
+	display: none;
 
-  @media (min-width: 1200px) {
-    display: block;
-    max-width: 1440px;
-    margin: 0 auto;
+	@media (min-width: 1200px) {
+		display: block;
+		max-width: 1440px;
+		margin: 0 auto;
 
-    img {
-      width: 100%;
-    }
-  }
+		img {
+			width: 100%;
+		}
+	}
 }

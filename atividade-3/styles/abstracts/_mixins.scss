@@ -1,12 +1,12 @@
 @mixin font-wei-size($weight, $size, $line-height) {
-  font-weight: $weight;
-  font-size: $size;
-  line-height: $line-height;
+	font-weight: $weight;
+	font-size: $size;
+	line-height: $line-height;
 }
 
 @mixin flex-dir-jus($direction, $justify) {
-  display: flex;
-  align-items: center;
-  justify-content: $justify;
-  flex-direction: $direction;
+	display: flex;
+	align-items: center;
+	justify-content: $justify;
+	flex-direction: $direction;
 }
