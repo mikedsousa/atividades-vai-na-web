@@ -3,7 +3,7 @@
 header {
 	@include mixins.flex-dir-jus(column, center);
 	margin-block: 20px;
-	max-width: 1200px;
+	max-width: 1440px;
 
 	@media (min-width: 1200px) {
 		@include mixins.flex-dir-jus(row, space-between);
