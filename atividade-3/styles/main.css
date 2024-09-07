@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #EFEEF3;
+  font-family: "Kodchasan", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+}
+@media (min-width: 1200px) {
+  li {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+@media (min-width: 1200px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-block: 20px;
+  max-width: 1200px;
+}
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
+header .logo {
+  margin-bottom: 40px;
+}
+header ul {
+  list-style-type: none;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  header ul {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+header ul li {
+  margin-bottom: 27px;
+}
+
+.banner {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .banner {
+    display: block;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .banner img {
+    width: 100%;
+  }
+}
+
+main {
+  padding: 26px;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+}
+main .advertising {
+  margin-bottom: 40px;
+  max-width: 450px;
+}
+main .advertising img {
+  width: 100%;
+}
+main .advertising h2 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  main .advertising h2 {
+    display: block;
+    margin-top: 100px;
+  }
+}
+main .products {
+  text-align: center;
+  max-width: 700px;
+}
+main .products p {
+  margin-block: 27px;
+  max-width: 573px;
+}
+main .products div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+@media (min-width: 1200px) {
+  main .products h3 {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

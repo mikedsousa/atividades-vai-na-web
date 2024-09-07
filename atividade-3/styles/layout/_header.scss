@@ -1,0 +1,35 @@
+@use '../abstracts/mixins';
+
+header {
+	@include mixins.flex-dir-jus(column, center);
+	margin-block: 20px;
+  max-width: 1200px;
+  
+
+	@media (min-width: 1200px) {
+    @include mixins.flex-dir-jus(row, space-between);
+    margin: 0 auto;
+    padding: 1rem;
+	}
+
+	.logo {
+		margin-bottom: 40px;
+	}
+
+	ul {
+		list-style-type: none;
+		text-align: center;
+
+		@media (min-width: 1200px) {
+      @include mixins.flex-dir-jus(row, initial);
+
+      gap: 1rem;
+		}
+
+		li {
+			margin-bottom: 27px;
+		}
+	}
+
+
+}

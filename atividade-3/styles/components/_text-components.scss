@@ -1,0 +1,30 @@
+@use '../abstracts/mixins';
+
+li {
+  @include mixins.font-wei-size(400, 1.25rem, 1.25rem);
+
+  @media (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
+}
+
+p {
+  @include mixins.font-wei-size(400, 1.25rem, 1.625rem);
+
+  @media (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
+
+}
+
+h2 {
+  @include mixins.font-wei-size(500, 1.5rem, 2rem);
+
+  @media (min-width: 1200px) {
+    font-size: 2.25rem;
+  }
+}
+
+h3 {
+  @include mixins.font-wei-size(500, 1.25rem, 1.625rem);
+}
