@@ -186,7 +186,7 @@ main .products p {
   margin-block: 27px;
   max-width: 573px;
 }
-main .products div {
+main .products__images {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,6 +194,14 @@ main .products div {
   margin-top: 50px;
   flex-wrap: wrap;
   gap: 3rem;
+}
+main .products__images img {
+  margin-inline: 25px;
+}
+@media (min-width: 1200px) {
+  main .products__images img {
+    margin-inline: 25px;
+  }
 }
 @media (min-width: 1200px) {
   main .products h3 {

@@ -37,11 +37,19 @@ main {
       max-width: 573px;
     }
 
-    div {
+    &__images {
       @include mixins.flex-dir-jus(row, center);
       margin-top: 50px;
       flex-wrap: wrap;
       gap: 3rem;
+
+      img {
+        margin-inline: 25px;
+
+        @media (min-width: 1200px) {
+          margin-inline: 25px;
+        }
+      }
     }
 
     h3 {
