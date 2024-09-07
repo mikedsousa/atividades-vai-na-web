@@ -26,4 +26,11 @@ h2 {
 
 h3 {
 	@include mixins.font-wei-size(500, 1.25rem, 1.625rem);
+
+	@media (min-width: 1200px) {
+		font-size: 1.875rem;
+		text-align: left;
+		max-width: 493px;
+		line-height: 39px;
+	}
 }

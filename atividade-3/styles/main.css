@@ -92,6 +92,14 @@ h3 {
   font-size: 1.25rem;
   line-height: 1.625rem;
 }
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.875rem;
+    text-align: left;
+    max-width: 493px;
+    line-height: 39px;
+  }
+}
 
 header {
   display: flex;
@@ -158,29 +166,48 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
   }
 }
 main .advertising {
   margin-bottom: 40px;
-  max-width: 450px;
+  max-width: 900x;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  main .advertising {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 }
 main .advertising img {
   width: 100%;
 }
-main .advertising h2 {
-  display: none;
-}
 @media (min-width: 1200px) {
-  main .advertising h2 {
-    display: block;
-    margin-top: 100px;
+  main .advertising img {
+    width: 450px;
   }
+}
+main .advertising h2 {
+  margin-block: 28px;
+}
+main .advertising p {
+  max-width: 573px;
 }
 main .products {
   text-align: center;
-  max-width: 700px;
+  max-width: 900x;
+}
+@media (min-width: 1200px) {
+  main .products {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 }
 main .products p {
   margin-block: 27px;
@@ -201,10 +228,5 @@ main .products__images img {
 @media (min-width: 1200px) {
   main .products__images img {
     margin-inline: 25px;
-  }
-}
-@media (min-width: 1200px) {
-  main .products h3 {
-    display: none;
   }
 }/*# sourceMappingURL=main.css.map */

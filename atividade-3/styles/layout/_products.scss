@@ -6,31 +6,49 @@ main {
 	@include mixins.flex-dir-jus(column, center);
 
 	@media (min-width: 1200px) {
-		@include mixins.flex-dir-jus(row, space-evenly);
+		@include mixins.flex-dir-jus(column, space-evenly);
 		margin: 0 auto;
 	}
 
 	.advertising {
 		margin-bottom: 40px;
-		max-width: 450px;
+		max-width: 900x;
+		text-align: center;
 
-		img {
+		@media (min-width: 1200px) {
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
 			width: 100%;
 		}
 
-		h2 {
-			display: none;
+		img {
+			width: 100%;
 
 			@media (min-width: 1200px) {
-				display: block;
-				margin-top: 100px;
+				width: 450px;
 			}
+		}
+
+		h2 {
+			margin-block: 28px;
+		}
+
+		p {
+			max-width: 573px;
 		}
 	}
 
 	.products {
 		text-align: center;
-		max-width: 700px;
+		max-width: 900x;
+
+		@media (min-width: 1200px) {
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			width: 100%;
+		}
 
 		p {
 			margin-block: 27px;
@@ -49,12 +67,6 @@ main {
 				@media (min-width: 1200px) {
 					margin-inline: 25px;
 				}
-			}
-		}
-
-		h3 {
-			@media (min-width: 1200px) {
-				display: none;
 			}
 		}
 	}
