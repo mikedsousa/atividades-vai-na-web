@@ -9,7 +9,7 @@ const StyledButton = styled.button`
   font-size: 2rem;
   border-radius: 15px;
   border: none;
-  cursor: pointer; /* Indica que é clicável */
+  cursor: pointer;
 `;
 
 const Button = ({ botao, valueState }) => {
